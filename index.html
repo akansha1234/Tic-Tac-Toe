@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tic-Tac Toe</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <section>
+      <h1>
+        T
+        <span class="red-split">I</span>
+        C -
+        <span class="red-split">T</span>
+        A
+        <span class="red-split">C</span>
+        - T
+        <span class="red-split">O</span>
+        E
+      </h1>
+      <!--------Make a grid-------->
+      <div class="game-container">
+        <div data-cell-index="0" class="cell"></div>
+        <div data-cell-index="1" class="cell"></div>
+        <div data-cell-index="2" class="cell"></div>
+        <div data-cell-index="3" class="cell"></div>
+        <div data-cell-index="4" class="cell"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell"></div>
+        <div data-cell-index="7" class="cell"></div>
+        <div data-cell-index="8" class="cell"></div>
+      </div>
+      <h2 class="game-status"></h2>
+      <button class="reset">Reset Game</button>
+    </section>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
